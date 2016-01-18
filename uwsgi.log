@@ -1,0 +1,158 @@
+*** Starting uWSGI 2.0.12 (64bit) on [Fri Jan 15 17:38:42 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-16) on 15 January 2016 01:39:57
+os: Linux-2.6.32-358.6.1.el6.x86_64 #1 SMP Tue Apr 23 19:29:00 UTC 2013
+nodename: MyCloudServer
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /web/venv
+detected binary path: /web/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7573
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 22628)
+uwsgi socket 0 bound to TCP address 127.0.0.1:40770 (port auto-assigned) fd 3
+Python version: 2.7.11 (default, Jan 15 2016, 01:05:19)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-16)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xd40ce0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named myapp.wsgi
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 22627, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 22627|app: -1|req: -1/1] 127.0.0.1 () {38 vars in 727 bytes} [Fri Jan 15 17:39:36 2016] GET / => generated 21 bytes in 0 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 22627|app: -1|req: -1/2] 180.191.156.9 () {38 vars in 741 bytes} [Fri Jan 15 17:39:41 2016] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 22627|app: -1|req: -1/3] 180.191.156.9 () {38 vars in 700 bytes} [Fri Jan 15 17:39:42 2016] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 22627|app: -1|req: -1/4] 127.0.0.1 () {26 vars in 272 bytes} [Fri Jan 15 17:39:42 2016] HEAD / => generated 21 bytes in 0 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 22627|app: -1|req: -1/5] 127.0.0.1 () {38 vars in 727 bytes} [Fri Jan 15 17:40:09 2016] GET / => generated 21 bytes in 0 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 22627|app: -1|req: -1/6] 127.0.0.1 () {26 vars in 272 bytes} [Fri Jan 15 17:40:30 2016] HEAD / => generated 21 bytes in 0 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 22627|app: -1|req: -1/7] 127.0.0.1 () {26 vars in 272 bytes} [Fri Jan 15 17:40:33 2016] HEAD / => generated 21 bytes in 0 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.12 (64bit) on [Fri Jan 15 23:47:38 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-16) on 15 January 2016 01:39:57
+os: Linux-2.6.32-358.6.1.el6.x86_64 #1 SMP Tue Apr 23 19:29:00 UTC 2013
+nodename: MyCloudServer
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /web/venv
+detected binary path: /web/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7573
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 6541)
+uwsgi socket 0 bound to TCP address 127.0.0.1:42686 (port auto-assigned) fd 3
+Python version: 2.7.11 (default, Jan 15 2016, 01:05:19)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-16)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x25afc80
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named myapp.wsgi
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 6540, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 6540|app: -1|req: -1/1] 127.0.0.1 () {48 vars in 919 bytes} [Fri Jan 15 23:48:11 2016] POST /logout/ => generated 21 bytes in 0 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 6540|app: -1|req: -1/2] 127.0.0.1 () {48 vars in 919 bytes} [Fri Jan 15 23:48:17 2016] POST /logout/ => generated 21 bytes in 0 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.12 (64bit) on [Fri Jan 15 23:49:31 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-16) on 15 January 2016 01:39:57
+os: Linux-2.6.32-358.6.1.el6.x86_64 #1 SMP Tue Apr 23 19:29:00 UTC 2013
+nodename: MyCloudServer
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /web/venv
+detected binary path: /web/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7573
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 6640)
+uwsgi socket 0 bound to TCP address 127.0.0.1:47309 (port auto-assigned) fd 3
+Python version: 2.7.11 (default, Jan 15 2016, 01:05:19)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-16)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1c44ce0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named myapp.wsgi
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 6639, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 6639|app: -1|req: -1/1] 127.0.0.1 () {26 vars in 272 bytes} [Fri Jan 15 23:49:42 2016] HEAD / => generated 21 bytes in 0 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 6639|app: -1|req: -1/2] 127.0.0.1 () {48 vars in 919 bytes} [Fri Jan 15 23:49:53 2016] POST /logout/ => generated 21 bytes in 0 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.12 (64bit) on [Fri Jan 15 23:51:18 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-16) on 15 January 2016 01:39:57
+os: Linux-2.6.32-358.6.1.el6.x86_64 #1 SMP Tue Apr 23 19:29:00 UTC 2013
+nodename: MyCloudServer
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /web/venv
+detected binary path: /web/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7573
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 6751)
+uwsgi socket 0 bound to TCP address 127.0.0.1:38115 (port auto-assigned) fd 3
+Python version: 2.7.11 (default, Jan 15 2016, 01:05:19)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-16)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xda7c80
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72768 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named myapp.wsgi
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 6750, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 6750|app: -1|req: -1/1] 127.0.0.1 () {48 vars in 916 bytes} [Fri Jan 15 23:51:30 2016] POST /loginpage/ => generated 21 bytes in 0 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 6750|app: -1|req: -1/2] 127.0.0.1 () {38 vars in 727 bytes} [Fri Jan 15 23:51:33 2016] GET / => generated 21 bytes in 0 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)
